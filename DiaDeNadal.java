@@ -23,7 +23,7 @@ if (numero>=0 && numero<10) {
         mes=sc.nextInt();
 
       if (dia>0 && dia<32 && mes>0 && mes<13) {
-        System.out.println( (dia=25 && mes==12)? "SI es Navidad" : "NO es Navidad");
+        System.out.println( (dia==25 && mes==12)? "SI es Navidad" : "NO es Navidad");
       }
       else {
         System.out.println("No es numero valido");
